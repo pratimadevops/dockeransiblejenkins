@@ -5,7 +5,6 @@
     - name: install python pip
       apt:
         name: python-pip
-        update_cache: yes
         state: present
     - name: install docker
       apt:
